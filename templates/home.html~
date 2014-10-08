@@ -1,0 +1,6 @@
+<!doctype html>
+
+<title>Searchy thign</title>
+<h1>This is our search page we'll have a title here later</h1>
+<br>
+<input type="text" name="Query">

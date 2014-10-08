@@ -1,0 +1,4 @@
+{% extends "home.html" %}
+{% block stuff %}
+You asked a thing! Good job.
+{% endblock stuff %}
