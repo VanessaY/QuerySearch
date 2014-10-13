@@ -24,6 +24,7 @@ def test(html_doc):
 	soup = BeautifulSoup(html_doc)
 	page = soup.find('p').getText()
 	print page
+	print soup.get_text()
 	
 sources = readSample('sample_html.txt')
 html_doc = sources[0]
