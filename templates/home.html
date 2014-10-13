@@ -1,20 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang>
+  
+  <head>
 
-<html>
-  <form>
-    <title>Searchy thign</title>
+    <title>Search Thing</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css">
+  </head>
+
+  <body>
+
     <center>
-      <h1>This is our search page we'll have a title here later</h1>
+      <div class="page-header">
+	<h1 position="fixed" top="50%">QuerySearch - Search for Queries!</h1>
+      </div>
     </center>
-    <br>
-    <body>
-      <center>
-	{% block stuff %}
-	<input type="text" name="query">
+    
+    <center>
+      
+      <div class="col-lg-8 col-lg-offset-2">
+	{% block information %}
 	<br>
-	<input type="submit" name="askbutton" value="Ask!">
-        {% endblock stuff %}
-      </center>
-    </body>
-  </form>
+	<br>
+	<div class="form-group">
+	  
+	  <input class="form-control input-lg" type="text" id="inputLarge" name="query" placeholder="Ask Us Something!">
+	  <br>
+	  <div class="col-lg-6 col-lg-offset-3">
+	    <button class="btn btn-danger btn-lg btn-block" type="button" name="askbutton" value="Ask!">Ask!</button>
+	  </div>
+	  
+	</div>
+	{% endblock information %}
+      </div>
+      
+    </center>
+  </body>
 </html>
