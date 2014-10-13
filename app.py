@@ -1,7 +1,7 @@
 
 from flask import Flask, render_template, request
 
-import google, bs4, whoAns
+import google, bs4, whoAns2
 
 app = Flask(__name__)
 
@@ -25,7 +25,7 @@ def home():
     elif askbutton == "Ask!":
         ##THIS IS LIST OF EACH RESULT'S PAGE (PROBABLY. HOPEFULLY)
         data = get_stuff (query)
-        results = whoAns.do_all (data)
+        results = whoAns2.do_all (data)
         s = "<ul>"
         for a in results:
             s = s + "<li>" + a + "</li>"
