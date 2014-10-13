@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, request
 
 import google, bs4
@@ -23,11 +24,12 @@ def home():
         return render_template("home.html")
     elif askbutton == "Ask!":
         ##THIS IS LIST OF EACH RESULT'S PAGE (PROBABLY. HOPEFULLY)
-        data = get_stuff (query)
+        print("DID A THING")
+        #data = get_stuff (query)
         return render_template("ask.html")
     elif goback == "Return":
         return render_template("home.html")
-    
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
