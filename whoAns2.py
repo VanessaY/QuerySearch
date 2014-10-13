@@ -21,6 +21,11 @@ def readSample(path):
         return sources
 
 def do_all(sources):
+        bad_words = ['he', 'all', 'the', 'play', 'we', 'but', 'a', 'in', 'go', 'get', 'seem', 'see', 'log', 'ads', 'from',
+                     'to', 'off', 'next', 'because', 'your', 'mine', 'url', 'be', 'of', 'just', 'have', 'that', 'as', 'be',
+                     'do', 'at', 'time', 'day', 'place', 'say', 'work', 'tell', 'call', 'own', 'good', 'bad', 'big', 'small',
+                     'high', 'able', 'same', 'by', 'this', 'will', 'one', 'every', 'an', 'not', 'or', 'would', 'there', 'their']
+                     
         all_found = {}
         for src in sources:
                fd = findName(src)
@@ -29,6 +34,12 @@ def do_all(sources):
                                all_found[k] = all_found[k]+fd[k]
                        else:
                                all_found.update({k:fd[k]})
+        for k in all_found.keys():
+                st = k.split(' ')
+                for st1 in st:
+                        st2 = st1.lower()
+                        if st2 in bad_words:
+                                del all_found[k]
         sret = sorted(all_found.items(), key=operator.itemgetter(1))
         ret = []
         for i in range(1,len(sret)+1):
@@ -77,5 +88,4 @@ def histogram(L):
         return d
 
 #sources = readSample('sample_html.txt')
-#html_doc = sources[0]
 #print do_all(sources)
