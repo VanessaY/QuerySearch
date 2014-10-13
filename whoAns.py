@@ -28,7 +28,7 @@ def do_all(sources):
                                all_found[k] = all_found[k]+fd[k]
                        else:
                                all_found.update({k:fd[k]})
-        print sorted(all_found)
+        return sorted(all_found)
 
 def aggregate(all_found):
         occurances = histogram(found)
@@ -70,6 +70,6 @@ def histogram(L):
                    d[x] = 1
         return d
 
-sources = readSample('sample_html.txt')
-html_doc = sources[0]
-print do_all(sources)
+#sources = readSample('sample_html.txt')
+#html_doc = sources[0]
+#print do_all(sources)
