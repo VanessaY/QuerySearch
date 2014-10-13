@@ -1,5 +1,6 @@
 import re
 from bs4 import BeautifulSoup
+import operator
 
 
 def readSample(path):
@@ -28,7 +29,16 @@ def do_all(sources):
                                all_found[k] = all_found[k]+fd[k]
                        else:
                                all_found.update({k:fd[k]})
+<<<<<<< HEAD
+        sret = sorted(all_found.items(), key=operator.itemgetter(1))
+        ret = []
+        for i in range(1,len(sret)+1):
+                ind = len(sret)-i
+                ret = ret+[sret[ind][0]]
+        return ret
+=======
         return sorted(all_found)
+>>>>>>> e39e00d00f589b299f0a5322aff112957f9221a7
 
 def aggregate(all_found):
         occurances = histogram(found)
