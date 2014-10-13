@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 {% block stuff %}
 %s
+=======
+{% extends "home.html" %}
+{% block information %}
+You asked a thing! Good job.
+>>>>>>> FETCH_HEAD
 <br>
-<input type = "submit" name = "goback" value = "Return">
-{% endblock stuff %}
+<form>
+  <div class="col-lg-6 col-lg-offset-3">
+  <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="goback" value="Return">
+</form>
+{% endblock information %}
