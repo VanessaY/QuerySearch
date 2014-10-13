@@ -31,7 +31,7 @@ def home():
             s = s + "<li>" + a + "</li>"
         s = s + "</ul>"
         print 'cool beans'
-        return render_template("ask.html")#%s
+        return render_template("gdi.html")%s
     elif goback == "Return":
         return render_template("home.html")
 
