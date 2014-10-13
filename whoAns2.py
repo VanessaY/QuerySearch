@@ -76,6 +76,6 @@ def histogram(L):
                    d[x] = 1
         return d
 
-sources = readSample('sample_html.txt')
-html_doc = sources[0]
-print do_all(sources)
+#sources = readSample('sample_html.txt')
+#html_doc = sources[0]
+#print do_all(sources)
