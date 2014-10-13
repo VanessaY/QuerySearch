@@ -1,6 +1,7 @@
+
 from flask import Flask, render_template, request
 
-import google, bs4
+import google, bs4, whoAns
 
 app = Flask(__name__)
 
@@ -23,11 +24,23 @@ def home():
         return render_template("home.html")
     elif askbutton == "Ask!":
         ##THIS IS LIST OF EACH RESULT'S PAGE (PROBABLY. HOPEFULLY)
+<<<<<<< HEAD
         data = get_stuff (query)
+        results = whoAns.do_all (data)
+        s = "<ul>"
+        for a in results:
+            s = s + "<li>" + a + "</li>"
+        s = s + "</ul>"
+        print 'cool beans'
+        return render_template("ask.html")%s
+=======
+        print("DID A THING")
+        #data = get_stuff (query)
         return render_template("ask.html")
+>>>>>>> FETCH_HEAD
     elif goback == "Return":
         return render_template("home.html")
-    
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
