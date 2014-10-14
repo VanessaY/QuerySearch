@@ -34,14 +34,16 @@ def home():
                 results = whenAns2.findDate(data)
         else:
             return render_template("oops.html")
-        s = "<ul>"
+        i = "<ul class = 'list-unstyled'>"
         for a in results:
-            s = s + "<li>" + a + "</li>"
-        s = s + "</ul>"
+            i = i + "<li>" + a + "</li>"
+        i = i + "</ul>"
         print 'cool beans'
-        return render_template("gdi.html")%s
+        return render_template("gdi.html").format(i)
     elif goback == "Return":
         return render_template("home.html")
+    else:
+        return render_template("oops.html")
 
 if __name__ == "__main__":
     app.debug = True
