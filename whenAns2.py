@@ -8,7 +8,7 @@ def findDate(data):
         soup = BeautifulSoup(d)
         s = soup.get_text()
         s = s.replace('\n')
-        a = re.compile('\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May?|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?) [0-3]?\d, [0-9]?[0-9]?[0-9]?\d')
+        a = re.compile('\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May?|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?) [0-3]?\d, [01]?[0-9]?[0-9]\d')
         result = a.findall(d)
         for i in result:
             ans.append(i)
