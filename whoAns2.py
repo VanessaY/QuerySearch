@@ -77,8 +77,10 @@ def findName(html_doc):
 def maxInDict(d, n):
         ret = {}
         vals = d.values()
+        if len(vals)==0:
+                return ret
         mxt = max(vals)
-        for i in range(0,n):
+        for i in range(0,min(n,len(vals))):
                 mx = float(max(vals))
                 #print mx/mxt
                 ind = vals.index(mx)
