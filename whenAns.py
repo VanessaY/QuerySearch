@@ -26,10 +26,11 @@ def do_all(sources):
                 a[k] = a[k]+f[k]
             else:
                 a.update({l:f[k]})
+    newa = sorted(a.items(),key = operator.itemgetter(1))
     ans = []
-    for i in range(1,len(a)+1):
-        index = len(a)-i
-        ans = ans + [a[index][0]]
+    for i in range(1,len(newa)+1):
+        index = len(newa)-i
+        ans = ans + [newa[index][0]]
     return ans
 
 def aggregate(all_found):
