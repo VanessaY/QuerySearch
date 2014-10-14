@@ -1,10 +1,13 @@
 {% extends "home.html" %}
 {% block information %}
-You asked a thing! Good job.
-<br>
-<form>
-  <div class="col-lg-6 col-lg-offset-3">
-    <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="goback" value="Return">
-  </div>
-</form>
+<div class="col-lg-8 col-lg-offset-2">
+  <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="goback" value="Return">
+</div>
+<div class="col-lg-4 col-lg-offset-4">
+  <ul>
+    {% for a in res %}
+    <li><h4>{{a}}</h4></li>
+    {% endfor %}
+  </ul>
+</div>
 {% endblock information %}

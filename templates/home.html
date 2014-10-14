@@ -14,20 +14,25 @@
 	<h1 position="fixed" top="50%">QuerySearch - Search for Queries!</h1>
       </div>
     </center>
-    
-    <center>  
-      <div class="col-lg-8 col-lg-offset-2">
-	{% block information %}
+      
+    <div class="col-lg-8 col-lg-offset-2">
+      {% block information %}
+      <center>
 	<br>
 	<br>
-	  <input class="form-control input-lg" type="text" id="inputLarge" name="query" placeholder="Ask Us Something!" style="vertical-align:middle">
-	  <br>
-	  <div class="col-lg-6 col-lg-offset-3">
-	    <button class="btn btn-danger btn-lg btn-block" type="submit" name="askbutton" value="Ask!">Ask!</button>
-	  </div>
-	  {% endblock information %}
+	<input class="form-control input-lg" type="text" id="inputLarge" name="query" placeholder="Ask Us Something!" style="vertical-align:middle">
+	<br>
+	<div class="col-lg-6 col-lg-offset-3">
+	  <button class="btn btn-danger btn-lg btn-block" type="submit" name="askbutton" value="Ask!">Ask!</button>
+	  <!--
+	  <button class="btn btn-primary btn-lg" type="submit" name="askbutton" value="Who?">Who?</button>
+	  <button class="btn btn-danger btn-lg btn-block" type="submit" name="askbutton" value="When?">When?</button>
+	  -->
 	</div>
-    </center>
+	
+      </center>
+      {% endblock information %}
+    </div>
     </form>
   </body>
 </html>
