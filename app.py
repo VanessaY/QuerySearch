@@ -25,7 +25,7 @@ def home():
     elif askbutton == "Ask!":
         ##THIS IS LIST OF EACH RESULT'S PAGE (PROBABLY. HOPEFULLY)
         if (query == ""):
-            return render_template("oops.html")
+            return render_template("ohyou.html")
         elif ("who" in query):
             results = whoAns2.do_all (data)
         elif ("when" in query):
