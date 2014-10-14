@@ -23,7 +23,7 @@ Set-Cookie3: csrftoken=GSq3noKxnHLo4o3QuxupqAPlxHbFbSYg; path="/"; domain=".mixc
 Set-Cookie3: s=ns9o7zm70ucujstonzbtxh2jc1ekje8e; path="/"; domain=".mixcloud.com"; path_spec; domain_dot; expires="2024-10-11 02:08:15Z"; httponly=None; version=0
 Set-Cookie3: prov="c2692c77-bf70-4e89-bad4-c16b23257c9d"; path="/"; domain=".stackexchange.com"; path_spec; domain_dot; expires="2055-01-01 00:00:00Z"; HttpOnly=None; version=0
 Set-Cookie3: tmg_authz_session="430cad47-d2a8-42c6-8378-cc6b9dc11956:node1"; path="/"; domain=".telegraph.co.uk"; path_spec; domain_dot; expires="2014-10-31 23:59:59Z"; version=0
-Set-Cookie3: TIMEANDDATE_SESSION="T_1413248957%3AC_21%3Ad3_42%3A"; path="/"; domain=".timeanddate.com"; path_spec; expires="2014-10-15 02:32:05Z"; version=0
+Set-Cookie3: TIMEANDDATE_SESSION="T_1413248957%3AC_51%3Ad3_102%3A"; path="/"; domain=".timeanddate.com"; path_spec; expires="2014-10-15 02:54:35Z"; version=0
 Set-Cookie3: guest_id="v1%3A141325218100205812"; path="/"; domain=".twitter.com"; path_spec; domain_dot; expires="2016-10-13 02:03:01Z"; version=0
 Set-Cookie3: __cfduid=dacc655a7214e27dacc9c4ec8291fd3611413250714913; path="/"; domain=".whychristmas.com"; path_spec; domain_dot; expires="2019-12-23 23:50:00Z"; HttpOnly=None; version=0
 Set-Cookie3: wikia_beacon_id=xQxybqXhVp; path="/"; domain=".wikia.com"; path_spec; domain_dot; expires="2015-04-11 20:11:59Z"; version=0
@@ -37,12 +37,9 @@ Set-Cookie3: ava_lastpage="http%3A%2F%2Fherogamesworld.com%2Fsuperman-games"; pa
 Set-Cookie3: exp_csrf_token=bcd0e29370cccc3d83c7ed15c8b546a5df04ad7b; path="/"; domain="jaja.club"; path_spec; expires="2014-10-14 04:02:32Z"; httponly=None; version=0
 Set-Cookie3: exp_last_activity=1413252152; path="/"; domain="jaja.club"; path_spec; expires="2015-10-14 02:02:32Z"; httponly=None; version=0
 Set-Cookie3: exp_last_visit=1097892152; path="/"; domain="jaja.club"; path_spec; expires="2015-10-14 02:02:32Z"; httponly=None; version=0
-Set-Cookie3: LastPage=640; path="/books"; domain="rcg.org"; expires="2014-10-14 02:38:37Z"; version=0
-Set-Cookie3: LastVisit=1413250717; path="/books"; domain="rcg.org"; expires="2014-10-14 02:38:37Z"; version=0
 Set-Cookie3: tuID="543c7e9d1875c2.63665474"; path="/books"; domain="rcg.org"; expires="2038-01-19 03:14:07Z"; version=0
 Set-Cookie3: _promos_seen="%5B%5D"; path="/"; domain="www.comicvine.com"; path_spec; expires="2014-11-14 01:48:59Z"; version=0
 Set-Cookie3: device_view=full; path="/"; domain="www.comicvine.com"; path_spec; expires="2014-11-13 08:00:00Z"; httponly=None; version=0
 Set-Cookie3: sptg="%5B%5D"; path="/"; domain="www.comicvine.com"; path_spec; expires="2014-10-28 01:48:59Z"; httponly=None; version=0
 Set-Cookie3: Apache="209.150.59.122.1413251321683588"; path="/"; domain="www.infoplease.com"; path_spec; expires="2015-10-14 01:48:41Z"; version=0
-Set-Cookie3: leo_auth_token="\"GST:UNpQc5vD_AAtfy3KjhY8E5WhTSRO1HkoeIhQxABWgmzWfWfKWulfa-:1413252508:c56bc722d5909d35a0a4aebb1f8efc3afec0f7ff\""; path="/"; domain="www.linkedin.com"; path_spec; expires="2014-10-14 02:38:16Z"; version=0
 Set-Cookie3: visit="\"v=1&G\""; path="/"; domain="www.linkedin.com"; path_spec; expires="2016-10-13 02:02:47Z"; version=0
