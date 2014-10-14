@@ -29,7 +29,7 @@ def home():
         data = get_stuff (query)
         if ("who" in query or "when" in query):
             if ("who" in query):
-                results = whoAns2.do_all (data)
+                results = whoAns2.do_all(data)
             elif ("when" in query):
                 results = whenAns2.findDate(data)
         else:
