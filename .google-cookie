@@ -1,11 +1,8 @@
 #LWP-Cookies-2.0
-Set-Cookie3: Mint=g125171fca04a6e79676c6f6265379d; path="/"; domain=".about.com"; path_spec; domain_dot; expires="2014-10-14 03:54:58Z"; version=0
 Set-Cookie3: TMog=g125171fca04a6e79676c6f6265379d; path="/"; domain=".about.com"; path_spec; domain_dot; expires="2082-11-01 06:39:05Z"; version=0
-Set-Cookie3: pc=1; path="/"; domain=".about.com"; path_spec; domain_dot; expires="2014-10-14 03:54:58Z"; version=0
 Set-Cookie3: SESS095d323cd8058abaa3a07a4ec41b18d5=p5sm7c3vgtc47b9crtn9bvkb56; path="/"; domain=".almanac.com"; path_spec; domain_dot; expires="2015-01-12 01:09:15Z"; version=0
 Set-Cookie3: BBC-UID="e594d38ce8d140d8dd1cd60ac144f8f4258718af7eb8337983f52afda32cc6d00Mozilla%2f4%2e0%20%28compatible%3b%20MSIE%208%2e0%3b%20Windows%20NT%206%2e0%29"; path="/"; domain=".bbc.co.uk"; path_spec; expires="2015-10-14 01:48:56Z"; version=0
 Set-Cookie3: bcomID=1175749024753164793; path="/"; domain=".britannica.com"; path_spec; expires="2024-10-11 01:48:22Z"; version=0
-Set-Cookie3: ads_firstpg=1; path="/"; domain=".comicvine.com"; path_spec; expires="2014-10-14 04:00:00Z"; version=0
 Set-Cookie3: sid=74e2e8b30205985c41c92056ccae65be; path="/"; domain=".discogs.com"; path_spec; domain_dot; expires="2024-10-11 02:08:27Z"; version=0
 Set-Cookie3: datr=qX08VF2cT3eaOcE4cu4uwWGE; path="/"; domain=".facebook.com"; path_spec; domain_dot; expires="2016-10-13 01:34:33Z"; httponly=None; version=0
 Set-Cookie3: __cfduid=d18ab312758a6535a4c071f6c3952a5bf1413251291549; path="/"; domain=".famousbirthdays.com"; path_spec; domain_dot; expires="2019-12-23 23:50:00Z"; HttpOnly=None; version=0
@@ -15,7 +12,7 @@ Set-Cookie3: NID="67=rdlvezrPQjtt-Nwaw3VGFpsLHrPamw-CiJHtmJz4mg8a0DA1Jfd44O86CaN
 Set-Cookie3: PREF="ID=ed8c2cce9ef98ca7:U=9aec676e1251ccae:FF=0:TM=1413231116:LM=1413231118:S=rp5qKQtpo3Dy6wsr"; path="/"; domain=".google.com"; path_spec; domain_dot; expires="2016-10-12 20:11:58Z"; version=0
 Set-Cookie3: __cfduid=d6b91d3da9630f3e6e588e75aebc8a5581413231845499; path="/"; domain=".herogamesworld.com"; path_spec; domain_dot; expires="2019-12-23 23:50:00Z"; HttpOnly=None; version=0
 Set-Cookie3: __cfduid=d8e7c6be2417bf70a1ddf75f7ffa8da1e1413257096240; path="/"; domain=".historylearningsite.co.uk"; path_spec; domain_dot; expires="2019-12-23 23:50:00Z"; HttpOnly=None; version=0
-Set-Cookie3: cs="6nzQfokGA9wRGyQ/R3xSGw5/E6t4GVT9+04yjx7KR3lZfwPtXklU/c7BNHVNake+jVpn3q7p9+6+SVT9yK4Uvd5JVMtpSdz9/kliy+7BVP39ymR17Wpn7o1aF+7NSlRdWF+Srs7fYurOSVS9XlkU3f5pVP3+SVS9vhkkzf"; path="/"; domain=".imdb.com"; path_spec; domain_dot; expires="2014-10-14 07:00:00Z"; version=0
+Set-Cookie3: cs="0qLCkJe/w2XkCXmxGF+sDQ5+YqrnqVT9/VndbX0qR+5tCkfO3nn0Xu5pVP34DgJ9vklU/cjt0tm9yiHbWK4UXX5JVMtpSdz9/kliy+7BVP39ymR17Wpn7o1aF+7NSlRdWF+Srs7fYurOSVS9XlkU3f5pVP3+SVS9vhkkzf"; path="/"; domain=".imdb.com"; path_spec; domain_dot; expires="2014-10-14 07:00:00Z"; version=0
 Set-Cookie3: session-id="680-6846259-1454824"; path="/"; domain=".imdb.com"; path_spec; domain_dot; expires="2082-10-31 23:31:52Z"; version=0
 Set-Cookie3: session-id-time=1570911464; path="/"; domain=".imdb.com"; path_spec; domain_dot; expires="2082-10-31 23:31:52Z"; version=0
 Set-Cookie3: uu="BCYowXl8IiAsk2uzzMf7k8c7n_8THC118kY6IONXpaFe2ihVhiwWZvJr5MBaxzYlEoT6-tj4f5cnoS_eyF1kXg1aLl8s_SnO7cQtSJ8xOsJwCNwqZNgHAMATj6-6waWka5es2pYuN-vLqovIvZAjnZpgzdbh8uQxVK8m9Vou0w_CtiYeABCmST4f8H9HaqJ5TOvYBWBshOClVT7BxAz_10RX7mgNGxjvtfBvfGB5pPbmqS3kYtj_k2Vy7Lu4yEVlElVhuFQLW1j8WN8WHFakncbqMyoulvjvSn0ASvY8mBCZdbG6Bg8XXSD2G7YLoGodj9i0"; path="/"; domain=".imdb.com"; path_spec; domain_dot; expires="2037-12-30 00:00:00Z"; version=0
@@ -27,23 +24,24 @@ Set-Cookie3: csrftoken=GSq3noKxnHLo4o3QuxupqAPlxHbFbSYg; path="/"; domain=".mixc
 Set-Cookie3: s=ns9o7zm70ucujstonzbtxh2jc1ekje8e; path="/"; domain=".mixcloud.com"; path_spec; domain_dot; expires="2024-10-11 02:08:15Z"; httponly=None; version=0
 Set-Cookie3: prov="c2692c77-bf70-4e89-bad4-c16b23257c9d"; path="/"; domain=".stackexchange.com"; path_spec; domain_dot; expires="2055-01-01 00:00:00Z"; HttpOnly=None; version=0
 Set-Cookie3: tmg_authz_session="430cad47-d2a8-42c6-8378-cc6b9dc11956:node1"; path="/"; domain=".telegraph.co.uk"; path_spec; domain_dot; expires="2014-10-31 23:59:59Z"; version=0
-Set-Cookie3: TIMEANDDATE_SESSION="T_1413248957%3AC_75%3Ad3_150%3A"; path="/"; domain=".timeanddate.com"; path_spec; expires="2014-10-15 03:23:39Z"; version=0
+Set-Cookie3: TIMEANDDATE_SESSION="T_1413248957%3AC_89%3Ad3_178%3A"; path="/"; domain=".timeanddate.com"; path_spec; expires="2014-10-15 04:42:12Z"; version=0
 Set-Cookie3: guest_id="v1%3A141325218100205812"; path="/"; domain=".twitter.com"; path_spec; domain_dot; expires="2016-10-13 02:03:01Z"; version=0
 Set-Cookie3: __cfduid=dacc655a7214e27dacc9c4ec8291fd3611413250714913; path="/"; domain=".whychristmas.com"; path_spec; domain_dot; expires="2019-12-23 23:50:00Z"; HttpOnly=None; version=0
 Set-Cookie3: wikia_beacon_id=xQxybqXhVp; path="/"; domain=".wikia.com"; path_spec; domain_dot; expires="2015-04-11 20:11:59Z"; version=0
 Set-Cookie3: c41="eJzLTLE1MjRRS7Y1tgQAEloC1A%3D%3D"; path="/"; domain=".wisegeek.org"; path_spec; domain_dot; expires="2014-10-28 01:38:36Z"; version=0
 Set-Cookie3: d30="eJwrzsgvd4n0tjUAABFqAxc%3D"; path="/"; domain=".wisegeek.org"; path_spec; domain_dot; expires="2014-11-13 01:38:36Z"; version=0
 Set-Cookie3: tm=eJzLTLE1NTVUS7a1BAAPqgKl; path="/"; domain=".wisegeek.org"; path_spec; domain_dot; expires="2014-10-28 01:38:36Z"; version=0
-Set-Cookie3: demo="\"e6761e4815b09a89a43a02009f9956a57ba6d7bc:{\\\"_city_region\\\": \\\"Burlington\\054MA\\\"\\054 \\\"bf\\\": 0\\054 \\\"dma\\\": 501}\""; path="/"; domain=".www.sodahead.com"; path_spec; expires="2015-10-14 01:48:54Z"; version=0
+Set-Cookie3: demo="\"e6761e4815b09a89a43a02009f9956a57ba6d7bc:{\\\"_city_region\\\": \\\"Burlington\\054MA\\\"\\054 \\\"bf\\\": 0\\054 \\\"dma\\\": 501}\""; path="/"; domain=".www.sodahead.com"; path_spec; expires="2015-10-14 04:13:41Z"; version=0
 Set-Cookie3: B="4hi4pbla3od78&b=3&s=og"; path="/"; domain=".yahoo.com"; path_spec; domain_dot; expires="2016-10-12 20:24:09Z"; version=0
 Set-Cookie3: VISITOR_INFO1_LIVE=4a8VmkVGhho; path="/"; domain=".youtube.com"; path_spec; domain_dot; expires="2015-06-14 08:12:08Z"; version=0
 Set-Cookie3: ava_lastpage="http%3A%2F%2Fherogamesworld.com%2Fsuperman-games"; path="/"; domain="herogamesworld.com"; path_spec; expires="2015-01-21 20:25:18Z"; version=0
-Set-Cookie3: exp_csrf_token=bcd0e29370cccc3d83c7ed15c8b546a5df04ad7b; path="/"; domain="jaja.club"; path_spec; expires="2014-10-14 04:02:32Z"; httponly=None; version=0
 Set-Cookie3: exp_last_activity=1413252152; path="/"; domain="jaja.club"; path_spec; expires="2015-10-14 02:02:32Z"; httponly=None; version=0
 Set-Cookie3: exp_last_visit=1097892152; path="/"; domain="jaja.club"; path_spec; expires="2015-10-14 02:02:32Z"; httponly=None; version=0
+Set-Cookie3: LastPage=640; path="/books"; domain="rcg.org"; expires="2014-10-14 05:42:14Z"; version=0
+Set-Cookie3: LastVisit=1413261734; path="/books"; domain="rcg.org"; expires="2014-10-14 05:42:14Z"; version=0
 Set-Cookie3: tuID="543c7e9d1875c2.63665474"; path="/books"; domain="rcg.org"; expires="2038-01-19 03:14:07Z"; version=0
-Set-Cookie3: _promos_seen="%5B%5D"; path="/"; domain="www.comicvine.com"; path_spec; expires="2014-11-14 01:48:59Z"; version=0
+Set-Cookie3: _promos_seen="%5B%5D"; path="/"; domain="www.comicvine.com"; path_spec; expires="2014-11-14 04:33:09Z"; version=0
 Set-Cookie3: device_view=full; path="/"; domain="www.comicvine.com"; path_spec; expires="2014-11-13 08:00:00Z"; httponly=None; version=0
-Set-Cookie3: sptg="%5B%5D"; path="/"; domain="www.comicvine.com"; path_spec; expires="2014-10-28 01:48:59Z"; httponly=None; version=0
+Set-Cookie3: sptg="%5B%5D"; path="/"; domain="www.comicvine.com"; path_spec; expires="2014-10-28 04:33:09Z"; httponly=None; version=0
 Set-Cookie3: Apache="209.150.59.122.1413251321683588"; path="/"; domain="www.infoplease.com"; path_spec; expires="2015-10-14 01:48:41Z"; version=0
 Set-Cookie3: visit="\"v=1&G\""; path="/"; domain="www.linkedin.com"; path_spec; expires="2016-10-13 02:02:47Z"; version=0

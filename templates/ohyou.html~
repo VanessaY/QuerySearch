@@ -1,8 +1,9 @@
-{% extends home.html %}
+{% extends "home.html" %}
 {% block information %}
 <div class="col-lg-8 col-lg-offset-2">
   <h1>We can't hear you!</h1>
   <h3>Please make sure you've typed in something in the box!</h3>
+  <h6>Were you trying to break our website or something?</h6>
 </div>
 <div class="col-lg-4 col-lg-offset-4">
   <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="goback" value="Return">

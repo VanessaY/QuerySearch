@@ -34,6 +34,7 @@ def home():
                 results = results[1:]
         else:
             return render_template("oops.html")
+<<<<<<< HEAD
         j = "<ul class = 'list-unstyled'>"
         k = 0
         for a in results:
@@ -57,6 +58,18 @@ def home():
             j = j + "<li>" + a + "</li>"
         j = j + "</ul>"
         return render_template("gdi.html").format(j, "",  "")
+=======
+<<<<<<< HEAD
+        return render_template("ask.html", res = results)
+=======
+        i = "<ul class = 'list-unstyled'>"
+        for a in results:
+            i = i + "<li>" + a + "</li>"
+        i = i + "</ul>"
+        print 'cool beans'
+        return render_template("gdi.html").format(i)
+>>>>>>> 6864dd416c76ba114898e33ca0e4623c95126630
+>>>>>>> FETCH_HEAD
     elif goback == "Return":
         return render_template("home.html")
     else:
