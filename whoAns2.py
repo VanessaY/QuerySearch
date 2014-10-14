@@ -21,6 +21,7 @@ def readSample(path):
         return sources
 
 def do_all(sources):
+        
         bad_words = ['he', 'all', 'the', 'play', 'we', 'but', 'a', 'in', 'go', 'get', 'seem', 'see', 'log', 'ads', 'from',
                      'to', 'off', 'next', 'because', 'your', 'mine', 'url', 'be', 'of', 'just', 'have', 'that', 'as', 'be',
                      'do', 'at', 'time', 'day', 'place', 'say', 'work', 'tell', 'call', 'own', 'good', 'bad', 'big', 'small',
@@ -37,13 +38,14 @@ def do_all(sources):
                                '''
                                reason for commenting out:
                                Harbinger of Bugs and Bringer of Headaches
+                               '''
         for k in all_found.keys():
                 st = k.split(' ')
                 for st1 in st:
                         st2 = st1.lower()
                         if st2 in bad_words:
-                                del all_found[k]
-                               '''
+                               all_found.pop(k,None)
+                               
         sret = sorted(all_found.items(), key=operator.itemgetter(1))
         ret = []
         for i in range(1,len(sret)+1):
@@ -77,8 +79,10 @@ def findName(html_doc):
 def maxInDict(d, n):
         ret = {}
         vals = d.values()
+        if len(vals)==0:
+                return ret
         mxt = max(vals)
-        for i in range(0,n):
+        for i in range(0,min(n,len(vals))):
                 mx = float(max(vals))
                 #print mx/mxt
                 ind = vals.index(mx)
