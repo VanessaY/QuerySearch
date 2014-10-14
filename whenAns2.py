@@ -1,5 +1,6 @@
 import re
 from bs4 import BeautifulSoup
+import collections
 
 def findDate(data):
     results = []
@@ -12,13 +13,9 @@ def findDate(data):
         dates = a.findall(s)
         for i in dates:
             results.append(i)
-        '''
-        most = most_common(ans)
-        results.append(most)
-    answer = most_common(results)
+    counter = collections.Counter(results)
+    ans = counter.most_common()
+    answer = []
+    for ind in ans:
+        answer.append(ind[0])
     return answer
-            '''
-    return results
-
-def most_common(lst):
-    return max(set(lst), key=lst.count)
