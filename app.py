@@ -24,11 +24,14 @@ def home():
         return render_template("home.html")
     elif askbutton == "Ask!":
         ##THIS IS LIST OF EACH RESULT'S PAGE (PROBABLY. HOPEFULLY)
-        data = get_stuff (query)
-        if ("who" in query):
+        if (query == ""):
+            return render_template("oops.html")
+        elif ("who" in query):
             results = whoAns2.do_all (data)
-        if ("when" in query):
+        elif ("when" in query):
             results = whenAns2.findDate(data)
+        else:
+            return render_template("oops.html")
         s = "<ul>"
         for a in results:
             s = s + "<li>" + a + "</li>"
