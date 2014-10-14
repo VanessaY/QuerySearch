@@ -1,13 +1,15 @@
 {% extends "home.html" %}
 {% block information %}
-<div class="col-lg-8 col-lg-offset-2">
-  <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="goback" value="Return">
-</div>
 <div class="col-lg-4 col-lg-offset-4">
+  <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="goback" value="Return">
+  <h1>Results</h1>
   <ul>
     {% for a in res %}
     <li><h4>{{a}}</h4></li>
     {% endfor %}
   </ul>
+  <!--
+  <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="more" value="More Results">
+  -->
 </div>
 {% endblock information %}

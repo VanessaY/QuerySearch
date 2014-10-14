@@ -66,7 +66,7 @@ def findName(html_doc):
         soup = BeautifulSoup(html_doc)
         s=soup.get_text()
         s = s.replace('\n',' ')
-        cap = re.findall('([A-Z][a-z]+[\s]([A-Z][a-z]+[\s])?)', s)
+        cap = re.findall('([A-Z][a-z]+[\s]([A-Z][a-z]+[\s]))', s)
         found = []
         for st in cap:
                found.append(st[0])
