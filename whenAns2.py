@@ -19,4 +19,4 @@ def findDate(data):
 
 
 def most_common(lst):
-    return max(set(lst), key=lst.count)
+    return max(lst, key=lst.count)
