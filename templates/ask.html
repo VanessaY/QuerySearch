@@ -1,15 +1,32 @@
 {% extends "home.html" %}
 {% block information %}
+
 <div class="col-lg-4 col-lg-offset-4">
   <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="goback" value="Return">
   <h1>Results</h1>
   <ul>
-    {% for a in res %}
+    {% for a in res1 %}
     <li><h4>{{a}}</h4></li>
     {% endfor %}
   </ul>
-  <!--
-  <input type="submit" class="btn btn-danger btn-lg btn-primary btn-block" type="button" name="more" value="More Results">
-  -->
+  
+  <script type="text/javascript">
+    function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if(e.style.display == 'block')
+    e.style.display = 'none';
+    else
+    e.style.display = 'block';
+    }
+  </script>
+  <input type="button" class="btn btn-success btn-lg btn-primary btn-block" type="button" onclick="toggle_visibility('moreinfo');" value="Show More">
+  <div id="moreinfo" style="display: none">
+    <ul>
+      {% for a in res2 %}
+      <li><h4>{{a}}</h4></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
+  
 {% endblock information %}

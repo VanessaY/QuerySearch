@@ -35,8 +35,9 @@ def home():
                 results = results[1:]
         else:
             return render_template("oops.html")
-        res = results[0:5]
-        return render_template("ask.html", res=res)
+        res1 = results[0:5]
+        res2 = results[5:]
+        return render_template("ask.html", res1=res1, res2=res2)
     elif goback == "Return":
         return render_template("home.html")
     else:
