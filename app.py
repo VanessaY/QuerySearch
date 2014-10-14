@@ -26,10 +26,12 @@ def home():
         ##THIS IS LIST OF EACH RESULT'S PAGE (PROBABLY. HOPEFULLY)
         if (query == ""):
             return render_template("ohyou.html")
-        elif ("who" in query):
-            results = whoAns2.do_all (data)
-        elif ("when" in query):
-            results = whenAns2.findDate(data)
+        data = get_stuff (query)
+        if ("who" in query or "when" in query):
+            if ("who" in query):
+                results = whoAns2.do_all (data)
+            elif ("when" in query):
+                results = whenAns2.findDate(data)
         else:
             return render_template("oops.html")
         s = "<ul>"
